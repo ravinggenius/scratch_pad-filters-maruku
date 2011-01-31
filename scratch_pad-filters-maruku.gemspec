@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Raving Genius']
   s.email       = ['rg+code@ravinggenius.com']
-  s.homepage    = ''
+  s.homepage    = 'https://github.com/ravinggenius/scratch_pad-filters-maruku'
   s.summary     = %q{Maruku-wrapping filter gem for ScratchPad}
   s.description = %q{Maruku-wrapping filter gem for ScratchPad}
 
