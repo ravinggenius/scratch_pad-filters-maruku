@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ['rg+code@ravinggenius.com']
   s.homepage    = ''
   s.summary     = %q{Maruku-wrapping filter gem for ScratchPad}
-  #s.description = %q{TODO: Write a gem description}
+  s.description = %q{Maruku-wrapping filter gem for ScratchPad}
 
   s.rubyforge_project = 'scratch_pad-filters-maruku'
 
@@ -18,5 +18,10 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ['lib']
 
-	s.add_dependency 'maruku'
+  s.add_dependency 'maruku'
+
+  s.signing_key = '/home/thomas/certificates/gem-private_key.pem'
+  s.cert_chain = [
+    '/home/thomas/certificates/gem-public_cert.pem'
+  ]
 end
